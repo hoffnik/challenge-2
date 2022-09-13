@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 35px;
+    background-color: #8a7cf2;
+    position: sticky;
+    top: 0;
+  }
+  header a {
+    text-decoration: none;
+    color: #ebe8d7;
+  }
+  header nav {
+    margin: 10px 0;
+  }
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header nav ul li a {
+    margin: 0 20px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
